@@ -1,0 +1,65 @@
+.navbar {
+    position: sticky;
+    background: #151515;
+    top: 0;
+    height: 4vh;
+    justify-content: space-between;
+
+    img {
+        height: 45px;
+    }
+
+    .search {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        .microphone {
+            width: 30px;
+            height: 30px;
+            color: white;
+            font-weight: 800;
+            margin-left: -2vw;
+            margin-top: auto;
+            margin-bottom: auto;
+            cursor: pointer;
+        }
+    }
+
+    .profile {
+        cursor: pointer;
+        .camera {
+            width: 30px;
+            height: 30px;
+            color: white;
+            font-weight: 800;
+            margin-right: 2vw;
+        }
+
+        .bell {
+            width: 30px;
+            height: 30px;
+            color: white;
+            font-weight: 800;
+            margin-right: 2vw;
+        }
+
+        .user-icon {
+            width: 30px;
+            height: 30px;
+            color: white;
+            font-weight: 800;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .profile{
+        display: none;
+    }
+    .search {
+        margin-right: 1vw;
+    }
+    .microphone{
+        padding-left: 5vw;
+    }
+}

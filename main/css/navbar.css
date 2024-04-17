@@ -1,0 +1,62 @@
+.navbar {
+  position: sticky;
+  background: #222222;
+  top: 0;
+  height: 6vh;
+  justify-content: space-between;
+}
+.navbar img {
+  height: 45px;
+}
+.navbar .search {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.navbar .search .microphone {
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-weight: 800;
+  margin-left: -2vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+}
+.navbar .profile {
+  cursor: pointer;
+}
+.navbar .profile .camera {
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-weight: 800;
+  margin-right: 2vw;
+}
+.navbar .profile .bell {
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-weight: 800;
+  margin-right: 2vw;
+}
+.navbar .profile .user-icon {
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    display: none;
+  }
+  .search {
+    margin-right: 1vw;
+  }
+  .microphone {
+    padding-left: 5vw;
+  }
+}/*# sourceMappingURL=navbar.css.map */

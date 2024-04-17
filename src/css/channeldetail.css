@@ -1,0 +1,21 @@
+.channel_page {
+  min-height: 95vh;
+}
+.channel_page .top_box {
+  height: 250px;
+  z-index: 10;
+  background: linear-gradient(-45deg, #E88A0F, #ee7752, #e73c7e, #c013e3, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

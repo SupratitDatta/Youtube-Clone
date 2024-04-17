@@ -1,0 +1,9 @@
+.channel_card {
+  box-shadow: "none";
+  border-radius: "20px";
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  height: "326px";
+  margin: "auto";
+}/*# sourceMappingURL=channelcard.css.map */
