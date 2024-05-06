@@ -6,7 +6,7 @@ import "../css/navbar.css";
 
 function Navbar() {
     return (
-        <Stack className="navbar" direction="row" alignItems="center" p={2} >
+        <Stack className="navbar" direction="row" alignItems="center" p={2} sx={{zIndex:10}}>
             <Link to="/" style={{ display: "flex", alignItems: "center" }}>
                 <img className="logo" src={logo} alt="logo" />
             </Link>
